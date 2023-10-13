@@ -1,0 +1,62 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+h1{
+    color: #58D68D;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 2px rgba(88,214,141,0.6);
+}
+
+img{
+    width: 400px;
+    filter: brightness(103%) saturate(123%) opacity(89%) contrast(132%);
+}
+
+.destacados{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: blue;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#prueba{
+    width: 100%;
+    background-color: coral;
+    height: 250px;
+    border: 5px dotted beige;
+    box-sizing: border-box;
+}
+
+#prueba h3{
+    text-align: center;
+}
+
+.caja{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,212,1) 100%); 
+    width: 250px;
+    box-shadow: -14px -14px 31px 0px rgba(15,15,15,0.76);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 30px 39px 31px 39px;
+}
+
+.texto{
+    background-color: greenyellow;
+    column-count: 3;
+    column-gap: 15px;
+    column-rule: 5px dotted black;
+    
+}
+
+.texto p{
+    font-family: 'Titillium Web', sans-serif;
+}
